@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tán Gái Cực Đỉnh 😘</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: red;
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>💖 Anh có điều muốn nói... 💖</h1>
+    <p class="heart">❤️ ❤️ ❤️</p>
+    <button class="btn" onclick="tangQua()">Bấm vào đây nè!</button>
+    <p id="message" style="font-size: 20px; font-weight: bold; color: darkred;"></p>
+    <script>
+        function tangQua() {
+            document.getElementById('message').innerHTML = "Anh thích em lắm đó! 😘";
+        }
+    </script>
+</body>
+</html>
